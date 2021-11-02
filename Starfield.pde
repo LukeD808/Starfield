@@ -67,7 +67,7 @@ void setup() {
 
 void draw() {
   noStroke();
-  background(112, 128, 144, 75); //sky
+  background(112, 128, 144); //sky
   fill(205, 170, 109); //desert
   rect(0, 750, 1000, 250); //desert
   for (int i = 0; i < hoard.length; i++) {
